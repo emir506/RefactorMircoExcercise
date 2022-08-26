@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="TirePressureMonitoringSystem\Alarm.cs" />
     <Compile Include="TirePressureMonitoringSystem\AlarmConfigData.cs" />
+    <Compile Include="TirePressureMonitoringSystem\ISensor.cs" />
     <Compile Include="TirePressureMonitoringSystem\Sensor.cs" />
     <Compile Include="TirePressureMonitoringSystem.SomeDependencies\ASensorClient.cs" />
     <Compile Include="TirePressureMonitoringSystem.SomeDependencies\AnAlarmClient1.cs" />
