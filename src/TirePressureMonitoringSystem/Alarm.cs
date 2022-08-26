@@ -2,11 +2,15 @@ namespace TDDMicroExercises.TirePressureMonitoringSystem
 {
     public class Alarm
     {
+
         private readonly ISensor _sensor;
 
-        public Alarm()
+        // Constructor injection with optional parameter
+        // use parameter for testing and passing Mock objects
+        // don't use parameter for production
+        public Alarm(ISensor sensor = null)
         {
-            _sensor = new Sensor();
+            _sensor = sensor ?? new Sensor();
         }
 
         bool _alarmOn = false;
