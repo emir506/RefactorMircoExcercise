@@ -1,4 +1,4 @@
-Emir Zecic, Task: TirepressureMonitoringSystem
+Emir Zecic , Task: TirepressureMonitoringSystem
 
 Problems:
 1) Alarm class has fixed range values, which should be moved into other ConfigurationClass. Values can be stored in ConfigurationClass, or get data from exteranla source, like file or DB
